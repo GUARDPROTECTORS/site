@@ -1,0 +1,85 @@
+/* style.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero {
+    height: 90vh;
+    background: linear-gradient(135deg, #3fb85d 0%, #2575fc 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.hero .container {
+    background-color: rgba(148, 233, 173, 0.6);
+    padding: 2rem;
+    border-radius: 12px;
+}
+
+.card-title {
+    font-weight: 600;
+}
+
+footer {
+    font-size: 0.9rem;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1050;
+    backdrop-filter: blur(10px);
+    background-color: rgba(54, 124, 97, 0.7); /* Deep bluish-purple tone */
+    transition: background-color 0.3s ease-in-out;
+}
+
+body {
+    padding-top: 70px; /* Prevent content from hiding behind navbar */
+}
+
+.service-card {
+    background: linear-gradient(135deg, #4ac45f, #4bcc81);
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 1rem;
+}
+
+.service-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.service-card .card-body {
+    padding: 2rem;
+}
+
+.contact-simple {
+    background: #f9f9ff;
+}
+
+.contact-box {
+    background: linear-gradient(135deg, #8e44ad, #6c5ce7);
+    color: white;
+}
+
+.contact-box a {
+    color: #ffd6ff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.contact-box a:hover {
+    text-decoration: underline;
+}
